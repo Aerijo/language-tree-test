@@ -9,6 +9,13 @@ fileTypes: [
   'txtt'
 ]
 
+folds: [
+  {
+    start: {index: 1, type: 'identifier'}
+    end: {index: -1, type: ')'}
+  }
+]
+
 scopes:
   'program': 'source.tree'
   'heading_name': 'markup.heading'

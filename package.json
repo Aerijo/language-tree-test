@@ -14,7 +14,7 @@
     "syntax-highlighting"
   ],
   "dependencies": {
-    "tree-sitter-test": "*"
+    "tree-sitter-test": "latest"
   },
   "devDependencies": {
     "coffeelint": "^1.10.1"
