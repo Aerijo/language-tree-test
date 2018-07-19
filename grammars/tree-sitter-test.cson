@@ -1,0 +1,18 @@
+id: 'test'
+name: 'Tree sitter test'
+type: 'tree-sitter'
+parser: 'tree-sitter-test'
+legacyScopeName: 'source.tree'
+scopeName: 'source.tree'
+
+fileTypes: [
+  'txtt'
+]
+
+scopes:
+  'program': 'source.tree'
+  'heading_name': 'markup.heading'
+  'eq_divider': 'constant.other.symbol'
+  'dash_divider': 'constant.other.symbol'
+  'group > "("': 'markup.string'
+  'group > ")"': 'markup.string'
