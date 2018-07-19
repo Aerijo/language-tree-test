@@ -1,6 +1,6 @@
 {
   "name": "language-tree-test",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Add a splash of colour to tree-sitter test files",
   "repository": "https://github.com/Aerijo/language-tree-test",
   "bugs": "https://github.com/Aerijo/language-tree-test/issues",
